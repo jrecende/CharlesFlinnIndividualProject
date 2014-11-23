@@ -34,4 +34,4 @@ as seen in the code files provided.  All I needed to do was adjust the JS, HTML,
 
 <b>Finally below is a screen shot my Resume that gets displayed as a PDF when one clicks the link in the navigation bar</b>
 
-<img src="Images/resume.JPG" alt="quiz"/>
+<img src="Images/Resume.JPG" alt="resume"/>
