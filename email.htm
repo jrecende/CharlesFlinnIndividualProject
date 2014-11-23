@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  	
+  <head>
+    <!-- Meta tag -->
+	<meta name="Robots" content="noindex,nofollow" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+    <!-- Link tag for CSS -->
+    <link type="text/css" rel="stylesheet" href="CSS/a1ss.css" />
+
+    <!-- Web Page Title -->
+    <title>Contact Chase</title>
+
+  </head>
+
+  <body>
+	<div id="header">
+		<p>
+		<img src="images/banner.jpg" alt="Chase's Blog">
+		</p>
+		
+	</div>
+	
+	<div id="navbar">
+		<ul id="nav">
+			<li>
+				<a href="../index.htm">Home</a>
+			</li>
+			<li>
+				<a href="blog.htm">blog</a>	
+			</li>
+			<li>
+				<a href="email.htm">Contact Chase</a>
+			</li>		
+			<li><a href="Chasequiz/Chasequiz.htm">Weekly Quiz</a>
+			</li>
+			<li><a href="images/CharlesFlinn.pdf">My Resume</a></li>
+		</ul>
+	
+	</div> 
+
+	<div id="main">
+		<form id="joinform" action="https://webapp4.asu.edu/pubtools/Mail" method="post"> 
+	<p class="fh1">
+		Call Chase at - (484)354-7679 
+		</br></br>
+		or Email Chase with the form below:
+	</p>
+	
+	<p>
+	
+	<!--3 hidden elements to process our emails -->
+	<input name="sendto" type="hidden" value="chflinn@asu.edu" />
+	<input name="subject" type="hidden" value="email" />
+	<input name="location" type="hidden"
+		value="http://cis425.wpcarey.asu.edu/chflinn/email/emailconfirm.htm" />
+	
+		<!-- Name -->
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" 
+		required autofocus
+		pattern="[a-zA-Z-' ]{4,30}"
+		title="Name: 4-30 chars, u/l case letters and - or ' only!"
+		placeholder="Enter your name here..." onfocus="namemsg()"/> 
+		<br />
+		
+		<!-- number -->
+		<label for="number">Phone #:</label>
+		<input type="text" id="number" name="number" 
+		pattern="[0-9]{10}"
+		title="Number: Enter numbers 1-9 only without ),( or -"
+		placeholder="Enter your number here!" onfocus="numbermsg()"/> 
+		<br />
+		
+		
+		<!-- Email -->
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"
+		placeholder="Enter your valid email address!"
+		title="Valid email address only!" required onfocus="emailmsg()"/>
+		<br />
+	
+		
+		<!-- Comment box -->
+		What do you ask of me?
+		<br />
+		<textarea name="comments" id="comments" rows="2" cols="49" 
+		required maxlength="1000" title="1-1000 chars!" onfocus="commentmsg()"></textarea>
+	</p>
+	
+	
+	<p class="submit">
+		<input type="submit" value="Send!" onfocus="sendmsg()" />
+		
+		<span class="reset">
+			<input type="reset" value="Reset!" onclick="history.go(0)" />	
+		</span>
+	</p>
+	</form>
+	
+	</div>
+		
+		
+	</div>
+    <div id="footer">
+		<p>
+			&copy;2014, Charles Flinn 
+		</p>
+	</div>
+  
+
+  </body>
+
+</html>

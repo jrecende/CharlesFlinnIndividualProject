@@ -1,0 +1,165 @@
+/*
+alss.css
+Charles Flinn
+*/
+
+/* selector { arguement: attribute; } */
+
+body { 
+	width:            1000px;
+	background-color: #ffffff;
+	color:            #4169e1;
+	margin:           auto;
+	font-weight:      bold;
+	font-family:      Calibri, Helvetica, Verdana, Arial, sans-sarif;
+	
+}
+
+.blog{font-size:	75%; font-weight: normal;}
+
+#header {
+	text-align:      center;
+	border-bottom:   thin solid #000;
+}
+
+#header img{
+	height:			200px;
+	width:			1060px;
+}
+
+#navbar {
+	width:           100%;
+	font-size:       110%; /* or 1.lem*/
+	text-align:      center;
+	margin-left:     15px;
+}
+
+ul#nav{
+	list-style:      none;
+	line-height: 	 2em;
+}
+
+ul#nav li{
+	Float:			left;
+	width:			175px;
+	list-style:     none;
+	position:		relative;
+	z-index:		100;
+}
+
+ul#nav li a{
+	border:			1px solid #adcfff; /*just like thin*/
+	display:		block;
+}
+
+li ul{ display: none;}
+
+
+li a:hover{ background: #e0ffff;}
+
+#main {
+	margin: 		auto;
+	margin-top:		75px;
+	font-size:		150%;
+	text-align:		left;
+	padding-left:	10px;
+	border:			1px solid #000;
+}
+
+#introp img{
+	height:			320px;
+	width:			450px;
+	float:			left;
+	padding-right:	20px;
+}
+
+
+#footer{
+	font-size:		60%;
+	text-align:		center;
+	border-top:		1px solid #adcfff;
+	padding-top:	5px;
+	/*line-height:	1.5em; (em also a measurement)*/
+}
+
+.mid{text-align: center; padding-left: 400px;}
+
+a:link   		{ color: #4169e1;}
+a:hover		{color:	#32cd32 !important;} /*important keeps link green after its been clicked*/
+a:visited	{color: #bbbbbb;}
+
+.answers li {
+list-style: upper-alpha;
+}
+
+label {
+margin-left: 0.5em;
+cursor: pointer;
+}
+
+#results {
+background: #dddada;
+color: 000000;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#results:hover {
+background: #3d91b8;
+color: #ffffff;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#categorylist {
+margin-top: 6px;
+display: none;
+}
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
+display: none;
+}
+
+#closing {
+display: none;
+font-style: italic;
+} 
+
+#joinform {
+	width:				55%;
+	font-size:			105%;
+	text-align:			center;
+	margin:				auto;
+	border:				5px double #6666FF;
+	background-color:	#6633CC;
+	color:				#fff;
+	border-radius:		15px;
+	box-shadow:			5px 5px 3px 3px rgba(138,43,226, 0.8);
+	
+}
+
+.submit {text-align:		center;}
+
+.submit input{
+	font-size:			70%;
+	color:				#ffffff;
+	font-style:			italic;
+	font-weight:		bold;
+	background-color:	#11dd11;
+	border-radius:		10px;
+	box-shadow:			3px 3px 0px 0px rgba(17,238,17,.5);
+}
+
+.reset input{
+background-color: 	#dd1111;
+border-radius:		10px;
+box-shadow:			3px 3px 0px 0px rgba(238,17,17,.5);}
+
+
+ 
